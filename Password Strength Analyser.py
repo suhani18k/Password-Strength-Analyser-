@@ -1,5 +1,5 @@
 
-print("SIMPLE PASSWORD STRENGTH ANALYSER")
+print("PASSWORD STRENGTH ANALYSER")
 
 attempt = 1
 
@@ -83,4 +83,3 @@ while True:
         break
 
     attempt += 1
-    print("\n-----------------------------------\n")
