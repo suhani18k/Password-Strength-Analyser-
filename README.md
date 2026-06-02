@@ -8,25 +8,29 @@ This project demonstrates fundamental Python programming concepts such as loops,
 
 • Features-->
 1.) Confirms password by matching input and confirmation Counts:
-Digits
-Uppercase letters
-Lowercase letters
-Checks password length
+Digits,
+Uppercase letters,
+Lowercase letters,
+Checks password length,
+
 2.) Classifies password strength as:
-WEAK
-MEDIUM
-STRONG
+WEAK,
+MEDIUM,
+STRONG,
+
 3.) Provides improvement suggestions.
+
 4.) Allows multiple attempts.
+
 5.) Displays total number of attempts.
 
 
 • Technologies Used -->
-Language: Python
-Concepts: Loops
-Conditional statements
-String methods
-Flags and counters
+Language: Python ,
+Concepts: Loops ,
+Conditional statements ,
+String methods ,
+Flags and counters.
 User input/output
 
 • How to Run the Program -->
@@ -66,16 +70,16 @@ Total Attempts : 1
 
 
 •Future Enhancements -->
-Add special character checking
-Mask password input
-Store password history
-Create a GUI version
+Add special character checking,
+Mask password input,
+Store password history,
+Create a GUI version.
 
 
 •Author -->
-Suhani Kasliwal
-B.Sc. Computer Science Student
-Aspiring Data Analyst / Software Developer
+Suhani Kasliwal,
+B.Sc. Computer Science Student,
+Aspiring Data Analyst / Software Developer.
 
 •License -->
 This project is created for learning and educational purposes.
