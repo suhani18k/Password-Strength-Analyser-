@@ -1,5 +1,5 @@
 
-print("SIMPLE PASSWORD STRENGTH CHECKER")
+print("SIMPLE PASSWORD STRENGTH ANALYSER")
 
 attempt = 1
 
@@ -78,7 +78,7 @@ while True:
    
     choice = input("\nDo you want to check another password? (yes/no): ")
     if choice.lower() != "yes":
-        print("\nThank you for using the Password Strength Checker.")
+        print("\nThank you for using the Password Strength Analyser.")
         print("Total Attempts:", attempt)
         break
 
