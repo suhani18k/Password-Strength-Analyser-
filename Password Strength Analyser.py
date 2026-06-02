@@ -1,5 +1,5 @@
 
-print("   SIMPLE PASSWORD STRENGTH CHECKER ")
+print("SIMPLE PASSWORD STRENGTH CHECKER")
 
 attempt = 1
 
