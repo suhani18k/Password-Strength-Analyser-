@@ -7,6 +7,7 @@ This project demonstrates fundamental Python programming concepts such as loops,
 
 
 • Features-->
+
 1.) Confirms password by matching input and confirmation Counts:
 Digits,
 Uppercase letters,
@@ -26,6 +27,7 @@ STRONG,
 
 
 • Technologies Used -->
+
 Language: Python ,
 Concepts: Loops ,
 Conditional statements ,
@@ -50,13 +52,19 @@ python password_strength_checker.py
 •Sample Output
 
 Attempt Number: 1
+
 Enter your password: Hello123
+
 Confirm your password: Hello123
 
 Password Length: 8
+
 Digits count: 3
+
 Uppercase letters count: 1
+
 Lowercase letters count: 4
+
 
 Password Strength: STRONG
 
@@ -77,8 +85,10 @@ Create a GUI version.
 
 
 •Author -->
-Suhani Kasliwal,
-B.Sc. Computer Science Student,
+Suhani Kasliwal
+
+B.Sc. Computer Science Student
+
 Aspiring Data Analyst / Software Developer.
 
 •License -->
