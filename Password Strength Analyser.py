@@ -1,6 +1,5 @@
-print("===================================")
-print("   SIMPLE PASSWORD STRENGTH CHECKER ")
-print("===================================\n")
+
+print("   SIMPLE PASSWORD STRENGTH CHECKER ")
 
 attempt = 1
 
@@ -15,11 +14,11 @@ while True:
         attempt += 1
         continue
 
-    # Password length
-    length = len(password)
+    
+    length = len(password)    
     print("\nPassword Length:", length)
 
-    # Flags and counters
+   
     has_digit = False
     has_upper = False
     has_lower = False
@@ -28,7 +27,7 @@ while True:
     upper_count = 0
     lower_count = 0
 
-    # Checking each character
+    
     for ch in password:
         if ch.isdigit():
             has_digit = True
@@ -40,16 +39,14 @@ while True:
             has_lower = True
             lower_count += 1
 
-    # Display character details
+    
     print("Digits count:", digit_count)
     print("Uppercase letters count:", upper_count)
     print("Lowercase letters count:", lower_count)
 
-    # Masked password display
-    #masked_password = "*" * length
-    #print("Masked Password:", masked_password)
+    
 
-    # Strength checking
+    
     if length < 6:
         strength = "WEAK"
 
@@ -64,7 +61,7 @@ while True:
 
     print("\nPassword Strength:", strength)
 
-    # Simple suggestions
+    
     print("\nPassword Suggestions:")
     if not has_digit:
         print("- Add at least one number")
@@ -76,9 +73,9 @@ while True:
         print("- Increase password length")
 
     if strength == "STRONG":
-        print("- Your password is good 👍")
+        print("Your password is good ")
 
-    # Continue or exit
+   
     choice = input("\nDo you want to check another password? (yes/no): ")
     if choice.lower() != "yes":
         print("\nThank you for using the Password Strength Checker.")
